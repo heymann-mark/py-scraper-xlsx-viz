@@ -5,7 +5,7 @@ import csv
 import matplotlib.pyplot as plt
 import pandas as pd
 out_list = []
-# Collect the github page
+# Collect the webpage
 page = requests.get('https://www.mass.gov/info-details/archive-of-covid-19-cases-in-massachusetts')
 # Create a BeautifulSoup object
 soup = BeautifulSoup(page.text, 'html.parser')
